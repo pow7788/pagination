@@ -1,0 +1,6 @@
+<h1>Home#index</h1>
+
+<% @users.each do |i| %>
+    <p><%= i.name %></p>
+<%end%>
+<%= paginate @users %>
