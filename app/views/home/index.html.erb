@@ -15,3 +15,8 @@
     <%= paginate @kamis %>
 </body>
 
+<% @danches.each do |h| %>
+    <p><%= h.name %></p>
+<% end %>
+<%= paginate @danches %>
+

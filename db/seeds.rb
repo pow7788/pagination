@@ -7,4 +7,5 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 for i in 1..1000
     Kami.create(name: "고양이동아리#{i}", numb: i)
+    Danche.create(name: "고양이 동아리#{i}", numb: i)
 end
